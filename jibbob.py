@@ -4,7 +4,7 @@ import random
 from bs4 import BeautifulSoup
 
 client = discord.Client()
-token= "process.env.TOKEN" #토큰값 절대 공개금지 
+#token= "process.env.TOKEN" #토큰값 절대 공개금지 
 
 def Search(url):
  
@@ -97,4 +97,4 @@ async def on_message(massage):
 
   
 
-client.run(process.env.TOKEN)
+client.run(os.environ['token'])
