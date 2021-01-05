@@ -97,4 +97,4 @@ async def on_message(massage):
 
   
 
-client.run(token)
+client.run(os.environ['token'])
