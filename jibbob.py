@@ -1,4 +1,5 @@
 import discord
+import os
 import urllib.request
 import random
 from bs4 import BeautifulSoup
