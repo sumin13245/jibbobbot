@@ -97,4 +97,4 @@ async def on_message(massage):
 
   
 
-client.run(process.env.TOKEN)
+client.run(os.environ['BOT_TOKEN'])
