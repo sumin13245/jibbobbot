@@ -1,2 +1,2 @@
-start: jibbob.py
+worker: jibbob.py
 web: gunicorn dep:app
