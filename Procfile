@@ -1,2 +1,2 @@
-worker: python3 jibbob.py
+worker: jibbob.py
 web: gunicorn dep:app
