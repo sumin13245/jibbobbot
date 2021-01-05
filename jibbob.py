@@ -96,5 +96,5 @@ async def on_message(massage):
               await massage.channel.send(result)
 
 
- token=os.environ['BOT_TOKEN']
-client.run(token)
+
+client.run(os.environ['BOT_TOKEN'])
