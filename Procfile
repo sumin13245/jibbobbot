@@ -1,1 +1,1 @@
-worker: jibbob.py
+worker: python jibbob.py
