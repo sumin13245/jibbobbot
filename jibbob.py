@@ -61,7 +61,7 @@ How_to_use_embed.set_image(url="https://cdn.discordapp.com/attachments/769261579
 @client.event
 async def on_ready():
     print("봇이 온라인으로 전환되었습니다.")
-
+    await client.change_presence(status=discord.Status.online, activity=discord.Game("쿠킹마마"))
 
 @client.event
 async def on_message(message):
