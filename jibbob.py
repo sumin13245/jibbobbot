@@ -46,7 +46,7 @@ async def on_ready():
 @client.event
 async def on_message(massage):
      if massage.content =="!집밥봇 사용법":
-         await massage.channel.send ("[!오늘 뭐 먹지] 를 입력하시고 나온 게으름의 정도를 \n!~~~ 이런식으로 말씀주시면 추천해드릴게요.\n찾고싶은 요리가 있을때는 [!집밥추천] \n또한[!비건요리] 있답니다.^^ \n사용법은 간단하죠?  자주 이용해주세요❤❤" )
+         await massage.channel.send ("[!오늘 뭐 먹지] 를 입력하시고\n 제가 말씀드리는 게으름의 정도를\n  !~~~ 이런식으로 말씀주시면 \n추천해드릴게요.\n당신이 찾고싶은 \n요리가 있을때는 [!집밥추천]\n또한[!비건요리] 있답니다.^^ \n사용법은 간단하죠?\n  자주 이용해주세요❤❤" )
          
 
      if massage.content == "!오늘 뭐 먹지":
