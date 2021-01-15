@@ -41,7 +41,7 @@ How_to_use_embed = discord.Embed(title="집밥봇을 사용하는 방법", descr
 How_to_use_embed.set_footer(text="또한 !비건 메뉴도 있답니다 .*^^*")
 How_to_use_embed.add_field(name="게으른 정도에 따른 집밥메뉴 추천이 있습니다", value="[!귀찮아] [!조금 귀찮아] [!보통이야] [!부지런해]\n 이중에서 당신의 상태를 입력해주세요.\n그러면 아저씨가 상황에 맞게\n요리를 추천해줄게요. ㅎ", inline=False)
 How_to_use_embed.add_field(name="혹시나 조리법을 찾고싶은 요리가 있다면 ", value="[!요리법] 뒤에 찾을 음식을 입력해주세요\n (ex: !요리법 당근케이크)\n  당신이원하는 요리의 조리법을 찾아드릴게요 ", inline=False)
-How_to_use_embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/769261579253841983/799553556934950952/74-745822.png")
+How_to_use_embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/769261579253841983/799558455534026782/pngwing.com.png")
 How_to_use_embed.set_image(url="https://cdn.discordapp.com/attachments/769261579253841983/799555645425713152/low-angle-chef-seasoning-salad_23-2148471931.jpg")
 
 
